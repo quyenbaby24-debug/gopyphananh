@@ -9,6 +9,9 @@ const CACHE_NAME = `app-cache-${VERSION}`;
 const PRECACHE_ASSETS = [
   '/',
   '/index.html',
+  '/admin.html',
+  '/khudancu.js',
+  '/config.js',
   '/manifest.json',
   '/pwa-core.js',
   '/icon-1000.png',
