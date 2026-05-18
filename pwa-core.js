@@ -2,7 +2,7 @@ const PWA_CONFIG = {
   APP_NAME: 'GÓP Ý - PHẢN ẢNH',
   APP_DESC: 'Ứng dụng góp ý phản ảnh của khu dân cư',
   APP_ICON: 'icon-1000.png',
-  APP_VERSION: 'v1.0.0',
+  APP_VERSION: 'v1.0.1',
   THEME_COLOR: '#5b8dee',
   ACCENT_COLOR: '#7ec8e3',
   BADGE_LABEL: 'Lưu Hành Nội Bộ',
