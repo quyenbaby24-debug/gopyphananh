@@ -1,4 +1,4 @@
-const VERSION = 'v1.0.0';
+const VERSION = 'v1.0.1';
 const CACHE_NAME = 'app-cache-' + VERSION;
 const PRECACHE_ASSETS = ['/', '/index.html','/admin.html','/config.js', '/manifest.json', '/pwa-core.js', '/icon-1000.png', '/icon-512.png', '/icon-192.png'];
 self.addEventListener('install', (event) => { event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(PRECACHE_ASSETS)).then(() => self.skipWaiting())); });
